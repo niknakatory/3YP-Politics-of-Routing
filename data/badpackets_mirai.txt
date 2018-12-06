@@ -1,3 +1,10 @@
+# Each line has information on an IP that is detected to be part of a Mirai-like Botnet. Source: https://mirai.badpackets.net
+# Format: TAB-separated columns
+# Column 1: IP Address
+# Column 2: Name of Autonomous System which owns the IP address
+# Column 3: Country (two-letter ISP code) of Autonomous System which owns the IP address)
+# Column 4: Number of Autonomous System (ASN) which owns the IP address
+# Column 5: Date and time when the infected address is first seen as part of the botnet
 116.15.49.181	SINGTEL-FIBRE Singtel Fibre Broadband	SG	AS9506	2018-01-01 08:17:44 PST
 119.171.238.159	JTCL-JP-AS Jupiter Telecommunication Co. Ltd	JP	AS9824	2018-01-01 08:19:39 PST
 211.246.132.105	SEOKYUNG-CATV-AS-KR Seokyung Cable Television Co.. Ltd.	KR	AS9694	2018-01-01 08:20:04 PST
