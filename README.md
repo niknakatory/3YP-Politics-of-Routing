@@ -38,3 +38,4 @@ The lines in the comment section start with `#`.
 * Geolocation in relation to other hegemonic nations that perform malicious routing. 
 * Amount of independent paths (robustness)
 * Level of surveillance of nation's own citizens. 
+* Are citizens exposed to online social engineering policies from their own government?
