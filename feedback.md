@@ -1,6 +1,7 @@
 ### Motivation for research
 
-I would suggest a slightly different angle in framing the motivation. 
+Section 1.2 is nice but I would just suggest a slightly different angle in framing the motivation. 
+
 The question is whether we can find evidence of malicious routing practices that are politically-motivated. 
 Countries that restrict freedoms (both individual and freedom of press) have mechanisms in place to monitor Internet 
 activity of users and organizations. Such countries would be expected to have lower levels of malicious activity. 
@@ -15,3 +16,14 @@ On the other hand, there are little evidence that such policies actually limit t
 > [1] https://otalliance.org/system/files/files/initiative/documents/ota_cyber_incident_trends_report_jan2018.pdf  
 > [2] https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/centres/risk/downloads/crs-cyber-risk-outlook-2018.pdf  
 > [3] https://www.brookings.edu/articles/cybercrime-dilemma-is-it-possible-to-guarantee-both-security-and-privacy/  
+
+
+## Mirai-like attacks by origin country
+
+The following plot is extremely interesting. It would be interesting to plot the number of attacks per country as proportion to the country's share of IPv4 address space and ASNs.
+
+![Mirai-like attacks by country](https://github.com/niknakatory/3YP-Politics-of-Routing/blob/master/figures/mirai-like-attacks-by-origin-counry.png?raw=true)
+
+The page below lists the ASNs and number of IPv4 addresses per country:
+- https://bgp.he.net/report/world 
+- https://bgp.he.net/report/prefixes#_countriesv4
