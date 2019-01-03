@@ -22,13 +22,9 @@ The lines in the comment section start with `#`.
 
 ## Propensity to conduct malicious routing:
 
-* Do they perform mass surveillance on their own population?
-* Do they perform mass surveillance on other nations?
-* Is their surveillance lawful as currently known?
+* Do they operate publically disclosed mass surveillance programs?
 * Has their surveillance been unlawful now or in the past? (boomeranging)
-* Do they breach human rights?
 * Frequency host nation appears in DDoSDB/badpackets/hijacks2018 as instigator. 
-* Have they conducted politically motivated DDoS in the past?
 * 
 
 ## Exposure of Citizens to malicious routing:
