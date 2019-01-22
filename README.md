@@ -12,11 +12,18 @@ The `data/` repository directory contains datasets on various types of attacks t
    Contains the detected BGP Prefix Hijackings detected by BGPMon.
 
 * `asn_countries_names.txt`
-
    The mapping between AS Numbers (ASNs), AS Names, and countries ([2-letter ISO codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2))
 The format of the files is explained in the comment section at the top of each file.
 The lines in the comment section start with `#`.
 
+* `country_dependencies.txt`
+   The fraction of paths that traverse another country. 
+   For each country, the file has line with the following format: `CC|CC,fraction<tab>CC,fraction<tab>...`, where CC is the country code. For example, consider the line:
+   
+   `DE|CN,0.00695828101271	DE,0.169236143727	GB,0.0338861193408	US,0.379655359392	VE,4.59660898305e-06	VG,2.21622218826e-06	VN,0.00303515732797	ZA,0.00212667039539	IS,4.00561639952e-05`
+   
+   The above line starts with "`DE|`", which means that it's about German ASes. Then there is the list of countries and corresponding fractions of paths that go through these countries. `US,0.379655359392` means that 37% of the paths go through US-based ASes, while `CN,0.00695828101271` means that 0.6% of the paths go through Chinese ASes. 
+   `
 ## Wiki Pages
 
 * [Relevant literature on malicious routing behaviour](https://github.com/niknakatory/3YP-Politics-of-Routing/wiki)
