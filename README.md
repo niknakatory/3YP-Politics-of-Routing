@@ -8,6 +8,10 @@ The `data/` repository directory contains datasets on various types of attacks t
    Contains the IP interfaces and some relevant metadata of infected hosts that are part of botnets that resemble the Mirai botnet. 
    These IPs have been extracted by the BadPackets website using the `code/badpackets_mirai.py` script.
 
+* `botnet_ips_2017-2019.zip`
+   Contains all the IP interfaces observed as part of Mirai-like botnets between 2017-2019. The format is:
+   <ip_address> <date_first_seen> <date_last_seen> <difference between first seen and last seen in_seconds>
+   
 * `hijacks_2018.csv`
    Contains the detected BGP Prefix Hijackings detected by BGPMon.
 
