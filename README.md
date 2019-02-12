@@ -27,7 +27,11 @@ The lines in the comment section start with `#`.
    `DE|CN,0.00695828101271	DE,0.169236143727	GB,0.0338861193408	US,0.379655359392	VE,4.59660898305e-06	VG,2.21622218826e-06	VN,0.00303515732797	ZA,0.00212667039539	IS,4.00561639952e-05`
    
    The above line starts with "`DE|`", which means that it's about German ASes. Then there is the list of countries and corresponding fractions of paths that go through these countries. `US,0.379655359392` means that 37% of the paths go through US-based ASes, while `CN,0.00695828101271` means that 0.6% of the paths go through Chinese ASes. 
-   `
+
+* `internet_penetration.csv`
+  Stats on Internet penetration per country. The format is:  
+  `country name,country code,IP addresses (million),IP addresses per capita,Fraction of total IP addresses`
+   
 ## Wiki Pages
 
 * [Relevant literature on malicious routing behaviour](https://github.com/niknakatory/3YP-Politics-of-Routing/wiki)
